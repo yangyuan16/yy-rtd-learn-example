@@ -30,11 +30,9 @@ release = '0.0.4'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-import sphinx_markdown_tables
 extensions = ['sphinx.ext.todo', 'sphinx.ext.viewcode', 'sphinx.ext.autodoc',
               'sphinx.ext.napoleon',
-              'recommonmark',
-              'sphinx_markdown_tables']
+              'recommonmark',]
 # The sphinx.ext.napoleon plugin allows Sphinx to parse this style of docstrings,
 # making it easy to incorporate Numpy style docstrings into your project.
 
