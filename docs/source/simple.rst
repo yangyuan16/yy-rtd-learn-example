@@ -1,0 +1,4 @@
+
+.. automodule:: simple
+   :members:
+   :noindex:
